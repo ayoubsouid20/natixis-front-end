@@ -1,0 +1,23 @@
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+.greeting-title{
+    font-size: var(--vss);
+    text-align: center;
+    animation: bounce 1.5s infinite;
+    color: var(--text-primary);
+}
+
+.greeting-description{
+    font-size: var(--xxxl);
+    text-align: center;
+    color: var(--text-primary);
+    text-transform: capitalize;
+}
+

@@ -1,0 +1,35 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 25px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  input:focus {
+    border-color: green;
+    box-shadow: 0 0 10px rgba(6, 230, 99, 0.5);
+    background-color: #fff;
+  }
+  
+  input::placeholder {
+    color: #888;
+    font-style: italic;
+  }
+  

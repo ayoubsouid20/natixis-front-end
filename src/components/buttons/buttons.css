@@ -1,0 +1,16 @@
+button{
+    all: unset;
+    background-color: var(--text-primary);
+    padding: 1rem;
+    text-align: center;
+    width: 50%;
+    font-size: var(--xxl);
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: wheat;
+}
