@@ -20,13 +20,13 @@
 
 ## Feature-Based Structure
 
-> Redux Toolkit simplifies the state management logic and reduces boilerplate code. Each feature (e.g., auth, products) has a slice to handle its local state.
+> The project uses a feature-based architecture, where each feature (e.g., authentication, products) has its own folder containing its slice, API calls, and components. This helps keep the code organized and maintainable as the project scales.
 >
 
 
 ## State Management with Redux Toolkit
 
-> The project uses a feature-based architecture, where each feature (e.g., authentication, products) has its own folder containing its slice, API calls, and components. This helps keep the code organized and maintainable as the project scales.
+> Redux Toolkit simplifies the state management logic and reduces boilerplate code. Each feature (e.g., auth, products) has a slice to handle its local state.
 >
 
 
