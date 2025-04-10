@@ -42,5 +42,5 @@
 
 ## Inline code
 
-To run the project just run npm i
+To run the project just run npm i & npm run dev
 Thank you.
